@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d8343bab099c1ed8d9f68c300594fc22 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d8343bab099c1ed8d9f68c300594fc22" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d8343bab099c1ed8d9f68c300594fc22 = L.map(
+                "map_d8343bab099c1ed8d9f68c300594fc22",
+                {
+                    center: [40.4168, -3.7038],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8726c4e82f5a750378a6fce692a9d568 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_8726c4e82f5a750378a6fce692a9d568.addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var marker_6a8f8084e6be76794c1f700db32bbfa9 = L.marker(
+                [40.438, -3.6896],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_c4240ac06c39db152c623de021996a3e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6a8f8084e6be76794c1f700db32bbfa9.setIcon(icon_c4240ac06c39db152c623de021996a3e);
+        
+    
+        var popup_a3542e4a85332f2a703bbb8bac19dce4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43f79294458edbf31e48e6ae370a2f83 = $(`<div id="html_43f79294458edbf31e48e6ae370a2f83" style="width: 100.0%; height: 100.0%;"><b>Casa Dani (Tortilla)</b><br>Giorno 1 - Arrivo & Centro</div>`)[0];
+                popup_a3542e4a85332f2a703bbb8bac19dce4.setContent(html_43f79294458edbf31e48e6ae370a2f83);
+            
+        
+
+        marker_6a8f8084e6be76794c1f700db32bbfa9.bindPopup(popup_a3542e4a85332f2a703bbb8bac19dce4)
+        ;
+
+        
+    
+    
+            var marker_ac7f2ff8c863d777b2aeb9815401e22b = L.marker(
+                [40.4154, -3.7074],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_34428a1f55da21e229f46126938ba6ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ac7f2ff8c863d777b2aeb9815401e22b.setIcon(icon_34428a1f55da21e229f46126938ba6ed);
+        
+    
+        var popup_97b4e5f8bec62f55e9b4b8aad348bffa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_440ed61c5f6891444d3b525d289dae38 = $(`<div id="html_440ed61c5f6891444d3b525d289dae38" style="width: 100.0%; height: 100.0%;"><b>Plaza Mayor</b><br>Giorno 1 - Arrivo & Centro</div>`)[0];
+                popup_97b4e5f8bec62f55e9b4b8aad348bffa.setContent(html_440ed61c5f6891444d3b525d289dae38);
+            
+        
+
+        marker_ac7f2ff8c863d777b2aeb9815401e22b.bindPopup(popup_97b4e5f8bec62f55e9b4b8aad348bffa)
+        ;
+
+        
+    
+    
+            var marker_b93399cc00ad2dece4340371748f3e56 = L.marker(
+                [40.4206, -3.7038],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_a666b049150445d9bd335ead63e18759 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b93399cc00ad2dece4340371748f3e56.setIcon(icon_a666b049150445d9bd335ead63e18759);
+        
+    
+        var popup_d252872ae89cf3704c230ed0a022e26e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f256198ee1376be216fb5be8cd6125d7 = $(`<div id="html_f256198ee1376be216fb5be8cd6125d7" style="width: 100.0%; height: 100.0%;"><b>Gran Vía</b><br>Giorno 1 - Arrivo & Centro</div>`)[0];
+                popup_d252872ae89cf3704c230ed0a022e26e.setContent(html_f256198ee1376be216fb5be8cd6125d7);
+            
+        
+
+        marker_b93399cc00ad2dece4340371748f3e56.bindPopup(popup_d252872ae89cf3704c230ed0a022e26e)
+        ;
+
+        
+    
+    
+            var marker_555450cb468c3eb3b5fa453b43b30c07 = L.marker(
+                [40.4181, -3.6976],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_f913319b3b2236981e18192597bebd06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_555450cb468c3eb3b5fa453b43b30c07.setIcon(icon_f913319b3b2236981e18192597bebd06);
+        
+    
+        var popup_1dd68607f6caa235a9d918cd7ef07b75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_013fe67f65fd04e8fa6b1c6d158bc61a = $(`<div id="html_013fe67f65fd04e8fa6b1c6d158bc61a" style="width: 100.0%; height: 100.0%;"><b>Círculo de Bellas Artes (Rooftop)</b><br>Giorno 1 - Arrivo & Centro</div>`)[0];
+                popup_1dd68607f6caa235a9d918cd7ef07b75.setContent(html_013fe67f65fd04e8fa6b1c6d158bc61a);
+            
+        
+
+        marker_555450cb468c3eb3b5fa453b43b30c07.bindPopup(popup_1dd68607f6caa235a9d918cd7ef07b75)
+        ;
+
+        
+    
+    
+            var marker_56be993ea57017b1aea0dc7cac9d381a = L.marker(
+                [40.4154, -3.7081],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_ae4aa8f0f04a7720fe399997c1f2b7c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_56be993ea57017b1aea0dc7cac9d381a.setIcon(icon_ae4aa8f0f04a7720fe399997c1f2b7c0);
+        
+    
+        var popup_2f20bd0b763afd26f672da4eccf62860 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b39cc3eadd44eb482b9ed09731876add = $(`<div id="html_b39cc3eadd44eb482b9ed09731876add" style="width: 100.0%; height: 100.0%;"><b>Mercado de San Miguel</b><br>Giorno 1 - Arrivo & Centro</div>`)[0];
+                popup_2f20bd0b763afd26f672da4eccf62860.setContent(html_b39cc3eadd44eb482b9ed09731876add);
+            
+        
+
+        marker_56be993ea57017b1aea0dc7cac9d381a.bindPopup(popup_2f20bd0b763afd26f672da4eccf62860)
+        ;
+
+        
+    
+    
+            var marker_a91fb6efad2c619748f1eb90b75080c9 = L.marker(
+                [40.4108, -3.7046],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_ce00188273ea3d32f672a4b36a3f97b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a91fb6efad2c619748f1eb90b75080c9.setIcon(icon_ce00188273ea3d32f672a4b36a3f97b2);
+        
+    
+        var popup_323382ee2f45ef2edbba49856de94130 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9db15e57a93f054d83a7dca3f339a08e = $(`<div id="html_9db15e57a93f054d83a7dca3f339a08e" style="width: 100.0%; height: 100.0%;"><b>Medias Puri (Club)</b><br>Giorno 1 - Arrivo & Centro</div>`)[0];
+                popup_323382ee2f45ef2edbba49856de94130.setContent(html_9db15e57a93f054d83a7dca3f339a08e);
+            
+        
+
+        marker_a91fb6efad2c619748f1eb90b75080c9.bindPopup(popup_323382ee2f45ef2edbba49856de94130)
+        ;
+
+        
+    
+    
+            var marker_e56eac09288c0eb9556cf28c1c1b4569 = L.marker(
+                [40.4114, -3.6931],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_a9515937ae9ac422c140d1387972c2b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e56eac09288c0eb9556cf28c1c1b4569.setIcon(icon_a9515937ae9ac422c140d1387972c2b4);
+        
+    
+        var popup_036b39a0f3c9ae75d23fa80d8b5c8764 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6329faa126b5b6e20616babaebfe13a = $(`<div id="html_b6329faa126b5b6e20616babaebfe13a" style="width: 100.0%; height: 100.0%;"><b>CaixaForum</b><br>Giorno 2 - Architettura & Experience</div>`)[0];
+                popup_036b39a0f3c9ae75d23fa80d8b5c8764.setContent(html_b6329faa126b5b6e20616babaebfe13a);
+            
+        
+
+        marker_e56eac09288c0eb9556cf28c1c1b4569.bindPopup(popup_036b39a0f3c9ae75d23fa80d8b5c8764)
+        ;
+
+        
+    
+    
+            var marker_3af2d871d51bc76a517968b7a7233674 = L.marker(
+                [40.3914, -3.6985],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_4340fe00c153d7d69e11a4b306291f22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3af2d871d51bc76a517968b7a7233674.setIcon(icon_4340fe00c153d7d69e11a4b306291f22);
+        
+    
+        var popup_efea8fd4660ca7508d9a2e3f7583b60a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a7af17882bb23484d30c7cdb3289b1f = $(`<div id="html_5a7af17882bb23484d30c7cdb3289b1f" style="width: 100.0%; height: 100.0%;"><b>Matadero Madrid</b><br>Giorno 2 - Architettura & Experience</div>`)[0];
+                popup_efea8fd4660ca7508d9a2e3f7583b60a.setContent(html_5a7af17882bb23484d30c7cdb3289b1f);
+            
+        
+
+        marker_3af2d871d51bc76a517968b7a7233674.bindPopup(popup_efea8fd4660ca7508d9a2e3f7583b60a)
+        ;
+
+        
+    
+    
+            var marker_ef11ef6f2904d1e13e56a176a89016db = L.marker(
+                [40.4238, -3.6996],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_65e1a864208923311ee13974e4a0ab92 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ef11ef6f2904d1e13e56a176a89016db.setIcon(icon_65e1a864208923311ee13974e4a0ab92);
+        
+    
+        var popup_27bf0d940c8ceb05079f8605fe0f7bd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2c12b9fdcc7813d995c843d051e0e1b = $(`<div id="html_d2c12b9fdcc7813d995c843d051e0e1b" style="width: 100.0%; height: 100.0%;"><b>Tigre (Tapas)</b><br>Giorno 2 - Architettura & Experience</div>`)[0];
+                popup_27bf0d940c8ceb05079f8605fe0f7bd6.setContent(html_d2c12b9fdcc7813d995c843d051e0e1b);
+            
+        
+
+        marker_ef11ef6f2904d1e13e56a176a89016db.bindPopup(popup_27bf0d940c8ceb05079f8605fe0f7bd6)
+        ;
+
+        
+    
+    
+            var marker_760dd598cc68d913aa5aba53f4915281 = L.marker(
+                [40.4322, -3.7023],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_872d350f651099d54c244e159a90cdd2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_760dd598cc68d913aa5aba53f4915281.setIcon(icon_872d350f651099d54c244e159a90cdd2);
+        
+    
+        var popup_c5912f06a706daa26ae75602ab091cbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f14af817fcf66b0e279e0f5e381ce055 = $(`<div id="html_f14af817fcf66b0e279e0f5e381ce055" style="width: 100.0%; height: 100.0%;"><b>Estación Fantasma (Chamberí)</b><br>Giorno 2 - Architettura & Experience</div>`)[0];
+                popup_c5912f06a706daa26ae75602ab091cbb.setContent(html_f14af817fcf66b0e279e0f5e381ce055);
+            
+        
+
+        marker_760dd598cc68d913aa5aba53f4915281.bindPopup(popup_c5912f06a706daa26ae75602ab091cbb)
+        ;
+
+        
+    
+    
+            var marker_1777ed366e69e897766aff05735e2b34 = L.marker(
+                [40.4231, -3.6947],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_48eb41f85a8718581da62132db9df817 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1777ed366e69e897766aff05735e2b34.setIcon(icon_48eb41f85a8718581da62132db9df817);
+        
+    
+        var popup_4684dd9dbdb4d9c4e7c8b115981f618f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd76142acdea5baaf021078bd40c3861 = $(`<div id="html_cd76142acdea5baaf021078bd40c3861" style="width: 100.0%; height: 100.0%;"><b>StreetXO (Cena Fusion)</b><br>Giorno 2 - Architettura & Experience</div>`)[0];
+                popup_4684dd9dbdb4d9c4e7c8b115981f618f.setContent(html_cd76142acdea5baaf021078bd40c3861);
+            
+        
+
+        marker_1777ed366e69e897766aff05735e2b34.bindPopup(popup_4684dd9dbdb4d9c4e7c8b115981f618f)
+        ;
+
+        
+    
+    
+            var marker_54f3a42c9bbb12a9982ebc0916590dae = L.marker(
+                [40.3023, -3.8481],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_8806311d8757dbabfdab0225c3293553 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_54f3a42c9bbb12a9982ebc0916590dae.setIcon(icon_8806311d8757dbabfdab0225c3293553);
+        
+    
+        var popup_21bf9d49f5bd75e567d8409702f21222 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f7cfaf54471fb79dad7dccd7aeda6ea = $(`<div id="html_5f7cfaf54471fb79dad7dccd7aeda6ea" style="width: 100.0%; height: 100.0%;"><b>Fabrik (Mega Club)</b><br>Giorno 2 - Architettura & Experience</div>`)[0];
+                popup_21bf9d49f5bd75e567d8409702f21222.setContent(html_5f7cfaf54471fb79dad7dccd7aeda6ea);
+            
+        
+
+        marker_54f3a42c9bbb12a9982ebc0916590dae.bindPopup(popup_21bf9d49f5bd75e567d8409702f21222)
+        ;
+
+        
+    
+    
+            var marker_9af43183a7601e4a5a8a7976a67bf6e4 = L.marker(
+                [40.4088, -3.6946],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_cb7f1255c3d85756f30d2638ad563f7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9af43183a7601e4a5a8a7976a67bf6e4.setIcon(icon_cb7f1255c3d85756f30d2638ad563f7d);
+        
+    
+        var popup_4c2bd565f58ac9519f7526b62496df2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3d0270b0c668bd16b13e8a9e62ae135 = $(`<div id="html_d3d0270b0c668bd16b13e8a9e62ae135" style="width: 100.0%; height: 100.0%;"><b>Museo Reina Sofía</b><br>Giorno 3 - Arte & Design</div>`)[0];
+                popup_4c2bd565f58ac9519f7526b62496df2f.setContent(html_d3d0270b0c668bd16b13e8a9e62ae135);
+            
+        
+
+        marker_9af43183a7601e4a5a8a7976a67bf6e4.bindPopup(popup_4c2bd565f58ac9519f7526b62496df2f)
+        ;
+
+        
+    
+    
+            var marker_508461dd2a9d372e0a34fd7f8aed2a82 = L.marker(
+                [40.4074, -3.6938],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_b6557a5266c53ee5479f49e5e4d4e531 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_508461dd2a9d372e0a34fd7f8aed2a82.setIcon(icon_b6557a5266c53ee5479f49e5e4d4e531);
+        
+    
+        var popup_420fd30627986187778158b32cb8c9d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5624104abc64641b59186019311ecca7 = $(`<div id="html_5624104abc64641b59186019311ecca7" style="width: 100.0%; height: 100.0%;"><b>La Casa Encendida</b><br>Giorno 3 - Arte & Design</div>`)[0];
+                popup_420fd30627986187778158b32cb8c9d4.setContent(html_5624104abc64641b59186019311ecca7);
+            
+        
+
+        marker_508461dd2a9d372e0a34fd7f8aed2a82.bindPopup(popup_420fd30627986187778158b32cb8c9d4)
+        ;
+
+        
+    
+    
+            var marker_2b02065a7a0ab2e95d28795127b1c3ef = L.marker(
+                [40.4241, -3.7012],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_4047ac6c6413ddc64f19d927d05b6eed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2b02065a7a0ab2e95d28795127b1c3ef.setIcon(icon_4047ac6c6413ddc64f19d927d05b6eed);
+        
+    
+        var popup_53e44c8cd5a77b1732b522a70e541c7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_897346db7a4fea0d6c49b4e2c4731f45 = $(`<div id="html_897346db7a4fea0d6c49b4e2c4731f45" style="width: 100.0%; height: 100.0%;"><b>Mercado de San Ildefonso</b><br>Giorno 3 - Arte & Design</div>`)[0];
+                popup_53e44c8cd5a77b1732b522a70e541c7e.setContent(html_897346db7a4fea0d6c49b4e2c4731f45);
+            
+        
+
+        marker_2b02065a7a0ab2e95d28795127b1c3ef.bindPopup(popup_53e44c8cd5a77b1732b522a70e541c7e)
+        ;
+
+        
+    
+    
+            var marker_874c9312706d37a184fdd0e32fd95567 = L.marker(
+                [40.4118, -3.7003],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_c008783e1762a32a236b8b472ec73117 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_874c9312706d37a184fdd0e32fd95567.setIcon(icon_c008783e1762a32a236b8b472ec73117);
+        
+    
+        var popup_555226f8d082a56d5e0f7c3a7e5c24d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f61a6aa73b9feacee6f0a977a89d2ae8 = $(`<div id="html_f61a6aa73b9feacee6f0a977a89d2ae8" style="width: 100.0%; height: 100.0%;"><b>Ikono Madrid</b><br>Giorno 3 - Arte & Design</div>`)[0];
+                popup_555226f8d082a56d5e0f7c3a7e5c24d6.setContent(html_f61a6aa73b9feacee6f0a977a89d2ae8);
+            
+        
+
+        marker_874c9312706d37a184fdd0e32fd95567.bindPopup(popup_555226f8d082a56d5e0f7c3a7e5c24d6)
+        ;
+
+        
+    
+    
+            var marker_c78bd51e82a8aca657b061c8eaa54fa8 = L.marker(
+                [40.4648, -3.5921],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_a2dc177d683f93bbf3c122139b0b883c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c78bd51e82a8aca657b061c8eaa54fa8.setIcon(icon_a2dc177d683f93bbf3c122139b0b883c);
+        
+    
+        var popup_4ae39a7e144af747a8c3b7c673fc843a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a24dfae9ba05eaa1f948e2e3a6f1caa4 = $(`<div id="html_a24dfae9ba05eaa1f948e2e3a6f1caa4" style="width: 100.0%; height: 100.0%;"><b>Parque El Capricho</b><br>Giorno 3 - Arte & Design</div>`)[0];
+                popup_4ae39a7e144af747a8c3b7c673fc843a.setContent(html_a24dfae9ba05eaa1f948e2e3a6f1caa4);
+            
+        
+
+        marker_c78bd51e82a8aca657b061c8eaa54fa8.bindPopup(popup_4ae39a7e144af747a8c3b7c673fc843a)
+        ;
+
+        
+    
+    
+            var marker_64dd472f320cba7104bed6d2a2093ab8 = L.marker(
+                [40.4113, -3.6989],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_dce15649d0e5ec2719cb0e21d4f72e8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_64dd472f320cba7104bed6d2a2093ab8.setIcon(icon_dce15649d0e5ec2719cb0e21d4f72e8e);
+        
+    
+        var popup_a75e6b84592b8e800d4f2b35810d44f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7412311cb5fe4effd9dbf0a603502a8e = $(`<div id="html_7412311cb5fe4effd9dbf0a603502a8e" style="width: 100.0%; height: 100.0%;"><b>Salmon Guru (Cocktail Bar)</b><br>Giorno 3 - Arte & Design</div>`)[0];
+                popup_a75e6b84592b8e800d4f2b35810d44f7.setContent(html_7412311cb5fe4effd9dbf0a603502a8e);
+            
+        
+
+        marker_64dd472f320cba7104bed6d2a2093ab8.bindPopup(popup_a75e6b84592b8e800d4f2b35810d44f7)
+        ;
+
+        
+    
+    
+            var marker_25f23161358affd574f9e84deb91ef09 = L.marker(
+                [40.4181, -3.6976],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_ee9b72f059ed535fbf16d4f4723cd845 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_25f23161358affd574f9e84deb91ef09.setIcon(icon_ee9b72f059ed535fbf16d4f4723cd845);
+        
+    
+        var popup_1e7a097dab6a62ae87034531117df109 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02945e8bec8af04aa6240e3c7fbe80b1 = $(`<div id="html_02945e8bec8af04aa6240e3c7fbe80b1" style="width: 100.0%; height: 100.0%;"><b>Azotea del Círculo (Rooftop)</b><br>Giorno 3 - Arte & Design</div>`)[0];
+                popup_1e7a097dab6a62ae87034531117df109.setContent(html_02945e8bec8af04aa6240e3c7fbe80b1);
+            
+        
+
+        marker_25f23161358affd574f9e84deb91ef09.bindPopup(popup_1e7a097dab6a62ae87034531117df109)
+        ;
+
+        
+    
+    
+            var marker_f540a31c6cde23629b0594438f74cd0e = L.marker(
+                [39.8569, -4.02],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_9caf2ac68ad0328294cddc65be716cbe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f540a31c6cde23629b0594438f74cd0e.setIcon(icon_9caf2ac68ad0328294cddc65be716cbe);
+        
+    
+        var popup_8f90e63d7d52743b939eeec97bac7e64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe53c966ea95bbfb52171a6b9bd2543a = $(`<div id="html_fe53c966ea95bbfb52171a6b9bd2543a" style="width: 100.0%; height: 100.0%;"><b>Toledo - Mirador del Valle</b><br>Giorno 4 - Escursione</div>`)[0];
+                popup_8f90e63d7d52743b939eeec97bac7e64.setContent(html_fe53c966ea95bbfb52171a6b9bd2543a);
+            
+        
+
+        marker_f540a31c6cde23629b0594438f74cd0e.bindPopup(popup_8f90e63d7d52743b939eeec97bac7e64)
+        ;
+
+        
+    
+    
+            var marker_e882ab48886ee99d0a4fe8e9452d24d9 = L.marker(
+                [40.9481, -4.1184],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_e53c8882f5a4788caa360da83ab9340a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e882ab48886ee99d0a4fe8e9452d24d9.setIcon(icon_e53c8882f5a4788caa360da83ab9340a);
+        
+    
+        var popup_cf843f6ab00af7695dbedb5d6561bc26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_678af5ec0060e0dadab35dd075d7f792 = $(`<div id="html_678af5ec0060e0dadab35dd075d7f792" style="width: 100.0%; height: 100.0%;"><b>Segovia - Acquedotto Romano</b><br>Giorno 4 - Escursione</div>`)[0];
+                popup_cf843f6ab00af7695dbedb5d6561bc26.setContent(html_678af5ec0060e0dadab35dd075d7f792);
+            
+        
+
+        marker_e882ab48886ee99d0a4fe8e9452d24d9.bindPopup(popup_cf843f6ab00af7695dbedb5d6561bc26)
+        ;
+
+        
+    
+    
+            var marker_00202cd2219a2a3557fbf89bf144ebe2 = L.marker(
+                [40.4159, -3.7123],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_ad0c5bea2c883f2c6aaeea06938256ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_00202cd2219a2a3557fbf89bf144ebe2.setIcon(icon_ad0c5bea2c883f2c6aaeea06938256ad);
+        
+    
+        var popup_312949b8933ba6a5b1d966dacae6fae5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a92a985663016bf3cdb645cd53de682 = $(`<div id="html_8a92a985663016bf3cdb645cd53de682" style="width: 100.0%; height: 100.0%;"><b>Hammam Al Ándalus (Bagno Arabo)</b><br>Giorno 4 - Escursione</div>`)[0];
+                popup_312949b8933ba6a5b1d966dacae6fae5.setContent(html_8a92a985663016bf3cdb645cd53de682);
+            
+        
+
+        marker_00202cd2219a2a3557fbf89bf144ebe2.bindPopup(popup_312949b8933ba6a5b1d966dacae6fae5)
+        ;
+
+        
+    
+    
+            var marker_2b0277d719a877f6633039e08826122a = L.marker(
+                [40.4087, -3.6922],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_7627d204d3310f10a301ce0faaaf1764 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2b0277d719a877f6633039e08826122a.setIcon(icon_7627d204d3310f10a301ce0faaaf1764);
+        
+    
+        var popup_b170232214a7009312787c097bc288ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d9271209659a5d875b3f9a5b6bb8d97 = $(`<div id="html_0d9271209659a5d875b3f9a5b6bb8d97" style="width: 100.0%; height: 100.0%;"><b>Kapital (Mega Discoteca)</b><br>Giorno 4 - Escursione</div>`)[0];
+                popup_b170232214a7009312787c097bc288ba.setContent(html_0d9271209659a5d875b3f9a5b6bb8d97);
+            
+        
+
+        marker_2b0277d719a877f6633039e08826122a.bindPopup(popup_b170232214a7009312787c097bc288ba)
+        ;
+
+        
+    
+    
+            var marker_d68dc62f7dd587a42bb2b65e7cf82955 = L.marker(
+                [40.4169, -3.7072],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_2680b5864a97178de06b1cab153b5ffc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d68dc62f7dd587a42bb2b65e7cf82955.setIcon(icon_2680b5864a97178de06b1cab153b5ffc);
+        
+    
+        var popup_ed94512943461c145bc087b0868b7e32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0dbd31e5bd418a9f6920bf54aac890e = $(`<div id="html_e0dbd31e5bd418a9f6920bf54aac890e" style="width: 100.0%; height: 100.0%;"><b>Chocolatería San Ginés</b><br>Giorno 5 - Ultimo giorno</div>`)[0];
+                popup_ed94512943461c145bc087b0868b7e32.setContent(html_e0dbd31e5bd418a9f6920bf54aac890e);
+            
+        
+
+        marker_d68dc62f7dd587a42bb2b65e7cf82955.bindPopup(popup_ed94512943461c145bc087b0868b7e32)
+        ;
+
+        
+    
+    
+            var marker_00d8bf71539108900070fadc7b1e739b = L.marker(
+                [40.4265, -3.7014],
+                {
+}
+            ).addTo(map_d8343bab099c1ed8d9f68c300594fc22);
+        
+    
+            var icon_1d7f3c429d4c6b36f655719b550a53a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_00d8bf71539108900070fadc7b1e739b.setIcon(icon_1d7f3c429d4c6b36f655719b550a53a0);
+        
+    
+        var popup_61a53284d67dae067d25e13cba7d5b7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bd72dbf21190ac4cc325cda94c398e7 = $(`<div id="html_6bd72dbf21190ac4cc325cda94c398e7" style="width: 100.0%; height: 100.0%;"><b>Calle Fuencarral (Shopping)</b><br>Giorno 5 - Ultimo giorno</div>`)[0];
+                popup_61a53284d67dae067d25e13cba7d5b7b.setContent(html_6bd72dbf21190ac4cc325cda94c398e7);
+            
+        
+
+        marker_00d8bf71539108900070fadc7b1e739b.bindPopup(popup_61a53284d67dae067d25e13cba7d5b7b)
+        ;
+
+        
+    
+</script>
+</html>
